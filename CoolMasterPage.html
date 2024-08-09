@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="keywords" content="electrical, wiring, refridgerations, repairs, fridge, repairing">
+      	<meta content="width=device-width,initial-scale=1.0" name="viewport">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Mabona Maxwell Sihlongonyane">
+    <meta name="description" content="Cool Master, a campany dealing with all electrical needs for business and homesteads. It also do maitanace of refrigerators and air conditioners.">
+    <title>Cool Master</title>
+    
+  <script src="script.js"></script>
+<style>
+    .boomScrollBtn{
+        opacity: 1;
+        transform: translateY(0);
+        transition: all 0.1s ease-in-out;
+    }
+body {
+    border-width: 1px;
+    border-color: #FFD700;
+    border-radius: 20px;
+    background-color:#60B3FF;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+    font-size: 20px;
+  box-shadow: 70px 0px 300px 100px rgba(0, 0, 0, 0.5);
+
+
+
+}
+   
+header {
+     background-image: url("1693562440.jpg");
+  padding: 45px;
+  color: white;
+    top:0;
+    left:0;
+    z-index: 99;
+    position: fixed;  
+}
+    
+.nav-links {
+  list-style:none;
+  margin-top: 0px;
+  padding: 0;
+  display: flex;   
+        position: fixed;
+        z-index: 99;
+                 text-align: center;
+         border-bottom-style: double;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #FFD700;
+        border-radius: 50px;
+        border-bottom-color: #7EB7f4;
+        border-top-color: #7EB7f4;
+ background-color:white; 
+     margin-top: 0px;
+}
+
+.nav-links li {
+  margin-right: 20px;
+    margin-top: 0px;  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #7EB7f4;
+     margin-top: 0px;
+}
+
+#banner {
+  /*background-color:darkblue;*/
+  padding:  50px;
+  text-align: center;
+  background-color: #7EB7f4;
+
+
+
+}
+
+#information {
+ /* background-color:blue;*/
+    font-size: 20px;
+    color: white;
+                background: linear-gradient(to right, darkblue 60%, #F0D700 100%);
+              
+
+}
+
+#portfolior {
+  padding: 50px;
+  background-color: #f2f2f2;
+} 
+
+.hidden {
+  display: none;
+    background-color: orange;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+    #uul{
+        list-style-type: none ;
+        font-size: 20px;
+        list-style-position: inside;
+        text-align: center;
+    }
+
+#ul1 {
+  list-style-type: circle;
+    text-align: center;
+    background-image: url("IMG-20240518-WA000232.jpg");
+  
+}
+    
+    .blink{
+        text-align: center;
+animation: blink 3s infinite;
+        color: orange;
+        
+        
+}
+    @keyframes blink {
+        
+        20%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            color: orange;
+        } 
+    }
+    #contents{
+        text-align: center;
+        table-layout: fixed;
+        align-content: center;
+    }
+
+    #img1,#img2,#img3{
+        width: 40%;
+        height: auto;
+    }
+    @media only screen and(min-width:3088px){
+       #img1,#img2,#img3{width: 30%;
+        height: auto;
+        }
+    }
+    #img1{
+        text-align: center;
+
+    border-width: 9px;
+        border-radius: 50px;
+
+       
+    }
+       #img2{
+        
+           text-align: center;
+
+    border-width: 9px;
+        border-radius: 50px;
+    }
+       #img3{
+        
+         text-align: center;
+
+    border-width: 9px;
+        border-radius: 50px;   
+    }
+    
+    #ref{
+        
+        text-align: center;
+    }
+    .floating{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+                 text-align: center;
+         border-bottom-style: double;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #FFD700;
+        border-radius: 50px;
+        border-bottom-color: #7EB7f4;
+        border-top-color: #7EB7f4;
+        color: black; 
+    }
+    
+    contacts{
+        background-color: orange;
+    }
+    #call{
+        bottom: 20px;
+    }
+    footer{
+      
+        font-style: italic;
+        background-image: url("IMG-20240518-WA000232.jpg");
+        height: 130px;
+    }
+     #wh{
+        position: fixed;
+         top: 38%;
+         right: 0%;
+    }
+    #pt{
+          position: fixed;
+         top: 35%;
+         right: 6.8%;
+        font-size: 40px;
+    }
+    #typingAnim{
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 10s steps(100,end);
+        text-align: center;
+    }
+    @keyframes typing{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 100%;
+        }
+    }
+</style>
+</head>  
+<body>
+  <header>
+    <nav class="navbar" style="width: 95%;height: 5%;background-color:white; text-align: center;">
+      <ul class="nav-links">
+         <b> <li><a style="padding-left:15px;" href="#" id="profile-link">Portfolio</a></li></b>
+        <b><li><a href="#about"id="about-link">About</a></li></b>
+      <b><li><a href="#contact" id="contact-link">Contact</a></li></b>
+      </ul>
+    </nav>
+  </header>
+  <section id="banner">
+      <img id="bn" style="border-radius: 57px;  box-shadow: 0px 0px 20px 30px rgba(0, 0, 0, 0.5);
+" src="Logo.jpg" width="25%" height="10%" alt="LOADING LOGO.." >
+       <br>
+      <br>
+ <marquee direction="left" scrollamount="3" behavior="alternate"> <b><p style="color: whitesmoke;">Thank you for choosing us!</p></b></marquee>
+  </section>
+
+  <section id="information">
+      <b> <h1 class="blink" href="#sv" id="sv" style="color: white;" >We are a leading team on: 👇</h1></b>
+      <ul id="uul" style="background-image: url(IMG-20240518-WA000232.jpg); border-radius: 200px ; color: black;background-size: cover;text-align: center;padding: 30px;font-size: 19px;">
+        <b><i> 
+          <li>✔ Installation and repairs of electrical systems</li>
+          <li>✔ Installation, repair, and maintenance of all types of air conditioning systems</li>
+            <li>✔ Installation, repairs, and maintenance of refrigerators, freezers, and other refrigeration units</li>
+            </i>
+          </b>
+      </ul>
+    
+     <b><h1 style="text-align: center;">Our Servivces - In details</h1></b> 
+      <table id="contents">
+      <tr>
+          <th><b><h1>1. Air Conditioning</h1></b></th> 
+          </tr>
+          <tr>
+             <td id="air" colspan="2">
+             <img id="img1" src="GridArt_20240509_202917459.jpg"  alt="LOADING PORTFOLIO IMAGE..." >
+            <h3>Retail</h3>
+              <ul id="uul">
+                  <li>Ducted and Casset Systems</li>
+              </ul>
+              <h3>Office</h3>
+              <ul id="uul">
+                  <li>VRV, split and multi split systems</li>
+              </ul>
+               <h3>Process</h3>
+              <ul id="uul">
+                  <li>Large air handlers and ducted sytems</li>
+              </ul>
+               <h3>Manufacture</h3>
+              <ul id="uul">
+                  <li>Sock cooling for low temperature applications ie food production areas</li>
+              </ul>
+               <h3>Server and Archive Rooms</h3>
+              <ul id="uul">
+                  <li>Close control temperature and humidity systems</li>
+              </ul>
+              </td></tr>
+           <tr>
+               <th colspan="2"><b><h1 style="text-align: center">2. Electrical Services</h1></b></th>
+          </tr>        
+              <tr>
+                  <td id="elec">
+                 <img id="img2" src="GridArt_20240509_203140128.jpg" width="90%" height="34%" alt="LOADING PORTFOLIO IMAGE..." >   
+                   <h3>Residential</h3>
+              <ul id="uul">
+                  <li>Installation and Repair</li>
+                 <li>Lighting fixtures</li>
+                  <li>New additions</li>
+                  <li>Excavating</li>
+                  <li>Trench work</li>
+                  <li>Upgrades</li>
+                  <li>Pools</li>
+                  
+              </ul>
+                   <h3>Industrial and Cormmercial</h3>
+              <ul id="uul">
+                  
+                
+                  <li>Piping</li>
+                  <li>Lighting</li>
+                  <li>Excavating</li>
+                  <li>Trench work</li>
+                  <li>Electrical Maintanance</li>
+                  <li>Installation and Repair</li>
+                  <li>Upgrades and new services</li>
+                  <li>Office building electrical work</li>
+              </ul>
+                  
+          </tr>
+          <tr>
+              <th colspan="2"><b><h1 style="text-align: center;">3. Refrigeration</h1></b></th>
+          </tr>
+          <tr>
+              
+              <td id="ref" colspan="2"> 
+           <img id="img3" src="GridArt_20240509_202618714.jpg" width="90%" height="34%" alt="LOADING PORTFOLIO IMAGE..." >
+               <h3>Retail Refrigeration</h3>
+                  <ul id="uul">
+                  <li>Display Cases, coldrooms, pack desings</li>
+              </ul>
+              
+                <h3>Commercial Refrigeration</h3>
+              <ul id="uul">
+                  <li>Cold rooms, Blast Chillers Freezers and Machinery</li>
+              </ul>
+                <h3>Leisure</h3>
+              <ul id="uul">
+                  <li>Celler Cooling and Ice Machine</li>
+              </ul>
+              <h3>Catering</h3>
+              <ul id="uul">
+                  <li>Reach in storage cabinents ie Forster and Gram cabinents and Coldrooms</li>
+              </ul> 
+              </td>
+          </tr> 
+      </table>
+      <button class="floating" id="fl" onclick="backToSqure1(this)"  hidden><b>Back Top</b></button>
+      <p id="pt"class="blink">👉</p>
+            <a href="https://wa.me/phone=+26876249892&send?text=Hello! From your website, I was interested in:%20">  <img  id="wh" src="WhatsApp_icon.png" width="100px" height="100px" alt="LOADING ICON.." ></a><br>
+
+      <div class="qcall" style="text-align: center;">
+         <b> <h3 class="blink" style="color: white;">Call us now and experience our service</h3></b>
+          <a  href="tel:+26876249892"><img id="lc" src="Simplify_Call_Image_Button_Icon.png" width="40px" height="40px" alt="LOADING ICON.." ><br><p style="color: white">76249892</p></a><br>  
+
+</div>
+  </section>
+    <br>
+    <br>
+  <section id="profile" class="hidden"style="background-image:url(backgrond.jpg)">
+    <h2 style="padding-top: 105px">Our Previous work</h2>
+      <b>We have provided our technical services to:</b>
+      <b>
+      <ol class="blink" style="text-align: left;color: white;background-color: #7EB7f4;font-size: 27px;">Sikhuphe Airport</ol>
+      <ol class="blink"style="text-align: left;color: white;background-color: #7EB7f4;font-size: 27px;">Medical Stores Matsapha</ol>
+      <ol class="blink"style="text-align: left;color: white;background-color: #7EB7f4;font-size: 27px;">RDP Mbabane</ol>
+      <ol class="blink"style="text-align: left;color: white;background-color: #7EB7f4;font-size: 27px;">Manzini Libray</ol>
+      </b>
+  </section>
+  <section id="about" class="hidden" style="background-color: white;color:darkblue; font-family: sans-serif;font-size: 24px;">
+      
+      <h1 style="padding-top: 105px">About US: Your One-Stop Solution for All Cooling, and Electrical Needs</h1>
+      
+      <p>At Cool Master, we are dedicated to providing comprehensive and reliable services<br> for all your air-conditioning, electrical, and refrigeration needs.<br> With a focus on customer satisfaction, our team of experienced professionals is equipped to handle a wide range of projects<br> on homesteads, individual properties, and commercial establishments.</p>
+      
+<h2>Air Conditioning Experts:</h2>
+      
+Installation, repair, and maintenance of all types of air conditioning systems
+Energy-efficient solutions to reduce your electricity bills
+Comprehensive indoor air quality assessments to ensure a healthy and comfortable environment
+      
+<h2>Electrical Specialists:</h2>
+      
+<li>Electrical repairs and installations, from small to large-scale projects</li>
+<li>Electrical panel upgrades and rewiring to ensure safety and reliability</li>
+     <li> Lighting design and installation to enhance aesthetics and functionality</li>
+      
+      <h2>Refrigeration Professionals:</h2>
+      
+      <ul>
+ <li>Installation, repairs, and maintenance of refrigerators, freezers, and other refrigeration units</li>
+ <li>Custom refrigeration solutions for specialized requirements</li>
+ <li>Energy conservation strategies to minimize operating costs</li>
+      </ul>
+      
+     <h3> Servicing Homesteads, Individuals, and Businesses</h3>
+      
+We understand that every home or business is unique, which is why we tailor our services to meet your specific needs. Whether you're a homeowner looking to upgrade your cooling system or a business owner in need of reliable electrical support, we have the experience and expertise to deliver top-notch solutions.
+      
+     <h3>Our Commitment to Excellence:</h3>
+      <ul>
+<li>Prompt and professional response to all service requests</li>
+<li>Skilled and certified technicians ensuring quality workmanship</li>
+         <li> Competitive pricing and transparent estimates</li>
+         <li> Satisfaction guarantee on all services performed</li>
+      </ul>
+      
+      <p><a href="javascript:contactopen(this)">Contact </a>Cool Master today and experience the difference that our commitment<br> to customer satisfaction and technical expertise can make.<br> Let us be your trusted partner for all your cooling, and electrical needs.</p>
+      
+  </section>
+      <h1 style="text-align: center">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100">
+<filter id="waveEffect">
+<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="3" result="turbulence" seed="0">
+<animate attributeName="baseFrequency" dur="10s" values="0.02;0.05;0.02" repeatCount="indefinite" />
+</feTurbulence>
+<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="10" xChannelSelector="R" yChannelSelector="G" />
+</filter>
+<rect width="100%" height="100%" fill="lightblue" />
+<text x="10" y="50" font-size="30px" fill="white" filter="url(#waveEffect)">we cool the nation</text>
+</svg>
+  </h1>
+    
+  <section id="contact" class="hidden" style="background-color: #7EB7f4">
+    <h2 style="padding-top: 105px">Our Contact Information</h2>
+    <img src="location-2955.png" width="60px" height="60px" alt="LOADING ICON...">
+      <p>Matsapha</p>
+    <a  href="tel:+26879776942"><img src="Simplify_Call_Image_Button_Icon.png" width="60px" height="60px" alt="LOADING ICON.." ><br>79776942<br></a><br> 
+    <a  href="tel:+26876249892"><img src="Simplify_Call_Image_Button_Icon.png" width="60px" height="60px" alt="LOADING ICON.." ><br>76249892<br></a><br> 
+      <a href="https://wa.me/phone=+26876249892&send?text=Hello! From your website, I was interested in:%20">  <img src="WhatsApp_icon.png" width="60px" height="60px" alt="LOADING ICON.." ></a><br>
+      <a href="https://www.facebook.com/profile.php?id=61559219026474"> <img src="facebook-icon-200x200.webp" width="60px" height="60px" alt="LOADING ICON.." ></a><br>    
+  </section>
+    
+    <footer>
+        <a href="https://www.facebook.com/profile.php?id=61559219026474"> <img id="fb" src="facebook-icon-200x200.webp" width="60px" height="60px" alt="LOADING ICON.." ></a><br>
+        <p style="text-align: left; font-size:18px;"> Copyright <span  id="yearThis"></span>  &copy; Cool Master</p>       
+    </footer>
+   
+<script>
+    let userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      let isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+      let isDesktop = !isMobile;
+      if (isMobile) {
+        
+              var change=document.getElementById("img1");
+          change.style.width="300px";
+          change.style.height="300px";
+       
+             var change1=document.getElementById("img2");
+          change1.style.width="300px";
+          change1.style.height="300px";
+               var change2=document.getElementById("img3");
+          change2.style.width="300px";
+          change2.style.height="300px";
+          
+               var change3=document.getElementById("wh");
+          change3.style.width="70px";
+          change3.style.height="70px";
+               var change4=document.getElementById("pt");
+          change4.style.top="34.4%";
+          change4.style.right="63px";
+          change4.style.fontSize="33px";
+          
+               var change5=document.getElementById("uul");
+          change5.style.padding="20px";
+               var change6=document.getElementById("lc");
+          change6.style.width="10%";
+          change6.style.height="10%";
+    var change7=document.getElementById("bn");
+          change7.style.width="90%";
+          change7.style.height="11%";
+           change7.style.marginTop="50px"
+    
+          
+      } 
+    document.getElementById('profile-link').addEventListener('click', function(event) {
+      event.preventDefault();
+          if (profileSection.classList.contains('hidden')) {
+        profileSection.classList.remove('hidden');
+      } else {
+        profileSection.classList.add('hidden');
+      }
+      profileSection.scrollIntoView({ behavior: 'smooth' });
+    });
+    
+      var profileSection = document.getElementById('profile');
+  document.getElementById('about-link').addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default link behavior
+      var profileSection = document.getElementById('about');
+      if (profileSection.classList.contains('hidden')) {
+        profileSection.classList.remove('hidden');
+      } else {
+        profileSection.classList.add('hidden');
+      }
+      profileSection.scrollIntoView({ behavior: 'smooth' });
+    });
+    
+  document.getElementById('contact-link').addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default link behavior
+      var profileSection = document.getElementById('contact');
+    document.getElementById("fb").classList.add("hidden");
+      if (profileSection.classList.contains('hidden')) {
+        profileSection.classList.remove('hidden');
+      } else {
+        profileSection.classList.add('hidden');
+      }
+      profileSection.scrollIntoView({ behavior: 'smooth' });
+    });
+    
+    var screenSize=parseInt(window.screen.height);
+   window.addEventListener("scroll",function(event){
+            if(window.scrollY>=screenSize-5){
+            document.getElementById("fl").removeAttribute("hidden"); 
+                document.getElementById("fl").classList.add("boomScrollBtn");
+                    document.getElementById("fl").innerHTML="<b>Back Top</b>";  
+            }
+        if(window.scrollY<=screenSize+5){
+              document.getElementById("fl").classList.add("boomScrollBtn");
+               document.getElementById("fl").innerHTML="<b>Scroll Down</b>";  
+        } 
+    }); 
+    
+    function backToSqure1(){ 
+        var pgP=window.scrollY;
+        if(pgP<=screenSize){
+       window.scrollTo({top: document.body.scrollHeight,behavior:"smooth"});
+     document.getElementById("fl").innerHTML="<b>Scroll Down</b>"   
+ document.getElementById("fl").innerHTML="<b>Back Top</b>";  
+        }
+        if(pgP>=screenSize){
+        document.getElementById("sv").scrollIntoView({behavior: "smooth"});
+        }
+    }
+    
+    function contactopen(){
+      var profileSection = document.getElementById('contact');
+      if (profileSection.classList.contains('hidden')) {
+        profileSection.classList.remove('hidden');
+      }
+      profileSection.scrollIntoView({ behavior: 'smooth' });
+        
+    }
+    
+    window.onload=function(){
+           setTimeout(function(){document.getElementById("uul").scrollIntoView({ behavior: 'smooth',block:"center" })},1500)};
+
+   
+        var year=new Date().getFullYear();
+    document.getElementById("yearThis").innerHTML=year;
+  </script>
+    
+</body>
+</html>
